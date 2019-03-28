@@ -1,0 +1,9 @@
+2b3f0bb5666eed664220368d9b4a1223 /root/.cisco/hostscan/bin/cscan
+59187396f98cd319898d091744af1365 /root/.cisco/hostscan/bin/cstub
+c899496c6164507327325d748a9e35a0 /root/.cisco/hostscan/lib/libacciscocrypto.so
+124fdf26eec127e5617fdd55de9a4fcb /root/.cisco/hostscan/lib/libacciscossl.so
+d58d629ef6a296c5180bff80aeecbcb4 /root/.cisco/hostscan/lib/libaccurl.so.4.3.0
+e6d605f04715b4d109f9cb8859971161 /root/.cisco/hostscan/lib/libcsd.so
+641cd4e5dcbdee4580f882fd42deefc5 /root/.cisco/hostscan/lib/libhostscan.so
+5a93218ec664570adb9cba811e8cfd45 /root/.cisco/hostscan/lib/libinspector.so
+14b3aab2e7e32d33c7300215c7a7e4cd /root/.cisco/hostscan/lib/tables.dat

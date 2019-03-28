@@ -1,0 +1,868 @@
+[Wed Mar 27 15:30:59.982 2019][libcsd]Function: csd_init Thread Id: 0xEBCB2B80 File: csd_api.c Line: 576 Level: all :: hello
+[Wed Mar 27 15:30:59.983 2019][libcsd]Function: csd_init Thread Id: 0xEBCB2B80 File: csd_api.c Line: 577 Level: all :: libcsd.so version 4.3.05033
+[Wed Mar 27 15:30:59.983 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 261 Level: trace :: initialization
+[Wed Mar 27 15:30:59.988 2019][libcsd]Function: hs_is_name_of_this_process Thread Id: 0xEBCB2B80 File: hs_process.c Line: 338 Level: debug :: Match Failed : Process names are 'cscan' and 'cstub'
+[Wed Mar 27 15:30:59.993 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0xEBCB2B80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/lib/libaccurl.so.4.3.0], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:31:00.031 2019][libcsd]Function: hs_dl_load_global Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 163 Level: debug :: attempting to load library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0)
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_dl_load_global Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 173 Level: debug :: library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) loaded
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_load_curl_frm_home Thread Id: 0xEBCB2B80 File: hs_transport_curl.c Line: 952 Level: debug :: curl library file (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) is loaded
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_curl_load_ssl Thread Id: 0xEBCB2B80 File: hs_transport_curl.c Line: 990 Level: debug :: loaded self as ssl library
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xEBCB2B80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_curl_load_crypto Thread Id: 0xEBCB2B80 File: hs_transport_curl.c Line: 1008 Level: debug :: loaded self as crypto library
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_curl_set_options Thread Id: 0xEBCB2B80 File: hs_transport_curl.c Line: 1559 Level: debug :: Setting TLS version option
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_curl_init_based_on_process Thread Id: 0xEBCB2B80 File: hs_transport_curl.c Line: 1759 Level: debug :: curl libs are initialized
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 304 Level: debug :: using libcurl
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 831 Level: trace :: setting http version
+[Wed Mar 27 15:31:00.032 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 849 Level: trace :: setting http version done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 562 Level: trace :: accepting all http versions
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 865 Level: trace :: setting connection timeout
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 883 Level: trace :: setting connection timeout done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 565 Level: trace :: connect timeout = 90000
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 935 Level: trace :: setting send timeout
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 953 Level: trace :: setting send timeout done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 567 Level: trace :: send timeout = 90000
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 900 Level: trace :: setting receive timeout
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 918 Level: trace :: setting receive timeout done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 569 Level: trace :: receive timeout = 90000
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1712 Level: trace :: resetting proxy
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1730 Level: trace :: resetting proxy done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_init Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 587 Level: trace :: initialization done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (allow-updates)=(1)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (block)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (block)=(0)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (ticket)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (ticket)=(2EA4696C6727621F107AD1BE)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (host)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (certhash)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (certhash)=(1D867F86AC4CDFB38F6C9D75FED5BCD9:)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (stub)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (stub)=(0)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_setarg Thread Id: 0xEBCB2B80 File: csd_api.c Line: 695 Level: debug :: received arg: (group)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: csd_prelogin Thread Id: 0xEBCB2B80 File: csd_api.c Line: 882 Level: debug :: libcsd prelogin started. 
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: transport_init_hash Thread Id: 0xEBCB2B80 File: csd_api.c Line: 810 Level: debug :: Using legacy certhash
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setcert Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 785 Level: trace :: init cert verify hash ... done
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: asa_tok_ren_init Thread Id: 0xEBCB2B80 File: asa.c Line: 182 Level: debug :: cond init succeeded
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = 
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1142 Level: trace :: host changed
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1035 Level: trace :: detecting proxy...
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1042 Level: trace :: verifying proxy...
+[Wed Mar 27 15:31:00.033 2019][libcsd]Function: hs_transport_probe Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1345 Level: trace :: sending probe request
+[Wed Mar 27 15:31:00.446 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.0
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 94
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:31:00.447 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:31:00 GMT
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_probe Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1367 Level: trace :: sending probe request done
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1045 Level: trace :: verifying proxy... done.
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1063 Level: trace :: detecting proxy... done.
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: asa_get_token Thread Id: 0xEBCB2B80 File: asa.c Line: 388 Level: debug :: getting token data from url (/+CSCOE+/sdesktop/token.xml?ticket=2EA4696C6727621F107AD1BE&stub=0)
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:31:00.448 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:31:00.698 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:31:00.698 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/xml
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:31:00 GMT
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: asa_get_token Thread Id: 0xEBCB2B80 File: asa.c Line: 438 Level: debug :: got token (71C3D0794488F940628FBCC3)
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: csd_prelogin Thread Id: 0xEBCB2B80 File: csd_api.c Line: 925 Level: debug :: Calling asa begin token
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: update_file Thread Id: 0xEBCB2B80 File: update.c Line: 230 Level: debug :: updating file (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: verify_file Thread Id: 0xEBCB2B80 File: update.c Line: 125 Level: debug :: verifying file: /root/.cisco/hostscan/bin/cscan
+[Wed Mar 27 15:31:00.699 2019][libcsd]Function: hs_get_from_cache Thread Id: 0xEBCB2B80 File: hs_cache.c Line: 95 Level: debug :: No cache for '0'
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0xEBCB2B80 File: hs_download.c Line: 609 Level: debug :: attempting to download file: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:31:00.700 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:31:00.958 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:31:00.958 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:31:00.958 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:31:00.958 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:31:00.958 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 489
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: max-age=0
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0xEBCB2B80 File: hs_download.c Line: 647 Level: debug :: downloaded file: /CACHE/sdesktop/hostscan/linux_x64/manifest (489 bytes)
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: hs_add_to_cache Thread Id: 0xEBCB2B80 File: hs_cache.c Line: 76 Level: debug :: Setting cache for '0'
+[Wed Mar 27 15:31:00.959 2019][libcsd]Function: download_manifest Thread Id: 0xEBCB2B80 File: update.c Line: 82 Level: debug :: manifest data downloaded: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:31:00.999 2019][libcsd]Function: verify_file Thread Id: 0xEBCB2B80 File: update.c Line: 175 Level: debug :: file has been verified: (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:31:00.999 2019][libcsd]Function: arg_set Thread Id: 0xEBCB2B80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: l10n_update_file Thread Id: 0xEBCB2B80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en-us)
+[Wed Mar 27 15:31:01.005 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:31:01.251 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:31:01 GMT
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:31:01.252 2019][libcsd]Function: l10n_update_file Thread Id: 0xEBCB2B80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en-us from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:31:01.253 2019][libcsd]Function: l10n_update_file Thread Id: 0xEBCB2B80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en)
+[Wed Mar 27 15:31:01.253 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:31:01.513 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:31:01.513 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:31:01.513 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:31:01.513 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:31:01.513 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:31:01 GMT
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: dump_http_headers Thread Id: 0xEBCB2B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: parse_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: process_response_headers Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: hs_transport_get Thread Id: 0xEBCB2B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:31:01.514 2019][libcsd]Function: l10n_update_file Thread Id: 0xEBCB2B80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: asa_is_token_renewal_running Thread Id: 0xEBCB2B80 File: asa.c Line: 986 Level: debug :: Token renewal running
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xEBCB2B80 File: asa.c Line: 1038 Level: debug :: Delivering signal
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: hs_thread_cond_wait_and_call Thread Id: 0xE9CD9700 File: hs_thread.c Line: 588 Level: debug :: Received signal to exit thread
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xEBCB2B80 File: asa.c Line: 1048 Level: debug :: Waiting for thread to complete
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xEBCB2B80 File: asa.c Line: 1050 Level: debug :: Thread completed
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: libcsd_ipc_init_server Thread Id: 0xEBCB2B80 File: libcsd_ipc.c Line: 186 Level: debug :: libcsd server is listening on (/root/.cisco/hostscan/.libcsd.ipc)
+[Wed Mar 27 15:31:01.515 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0xEBCB2B80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/bin/cscan], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:31:01.557 2019][libcsd]Function: hs_launch_process_return_pid Thread Id: 0xEBCB2B80 File: hs_process.c Line: 908 Level: debug :: launching executable (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:31:01.571 2019][libcsd]Function: new_connection_cb Thread Id: 0xEBCB2B80 File: csd_api.c Line: 68 Level: all :: *** new connection [55b154352800] from pid: [23402] ***
+[Wed Mar 27 15:31:01.572 2019][libcsd]Function: csd_prelogin Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1015 Level: debug :: arguments sent to scanner, starting prelogin.
+[Wed Mar 27 15:31:01.572 2019][libcsd]Function: csd_prelogin Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1025 Level: debug :: prelogin started.
+[Wed Mar 27 15:31:03.452 2019][libcsd]Function: csd_prelogin Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1031 Level: all :: libcsd prelogin returns 0. 
+[Wed Mar 27 15:31:03.453 2019][libcsd]Function: csd_detach Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1058 Level: debug :: csd_detach().
+[Wed Mar 27 15:31:03.458 2019][libcsd]Function: csd_run Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1089 Level: debug :: csd_run().
+[Wed Mar 27 15:31:03.458 2019][libcsd]Function: csd_run Thread Id: 0xEBCB2B80 File: csd_api.c Line: 1101 Level: debug :: spawning thread to handle scan session.
+[Wed Mar 27 15:48:27.939 2019][libcsd]Function: csd_init Thread Id: 0xAAB98B80 File: csd_api.c Line: 576 Level: all :: hello
+[Wed Mar 27 15:48:27.939 2019][libcsd]Function: csd_init Thread Id: 0xAAB98B80 File: csd_api.c Line: 577 Level: all :: libcsd.so version 4.3.05033
+[Wed Mar 27 15:48:27.940 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 261 Level: trace :: initialization
+[Wed Mar 27 15:48:27.946 2019][libcsd]Function: hs_is_name_of_this_process Thread Id: 0xAAB98B80 File: hs_process.c Line: 338 Level: debug :: Match Failed : Process names are 'cscan' and 'cstub'
+[Wed Mar 27 15:48:27.952 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0xAAB98B80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/lib/libaccurl.so.4.3.0], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_global Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 163 Level: debug :: attempting to load library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0)
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_global Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 173 Level: debug :: library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) loaded
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_transport_load_curl_frm_home Thread Id: 0xAAB98B80 File: hs_transport_curl.c Line: 952 Level: debug :: curl library file (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) is loaded
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_transport_curl_load_ssl Thread Id: 0xAAB98B80 File: hs_transport_curl.c Line: 990 Level: debug :: loaded self as ssl library
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_dl_load_self Thread Id: 0xAAB98B80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:48:27.993 2019][libcsd]Function: hs_transport_curl_load_crypto Thread Id: 0xAAB98B80 File: hs_transport_curl.c Line: 1008 Level: debug :: loaded self as crypto library
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_curl_set_options Thread Id: 0xAAB98B80 File: hs_transport_curl.c Line: 1559 Level: debug :: Setting TLS version option
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_curl_init_based_on_process Thread Id: 0xAAB98B80 File: hs_transport_curl.c Line: 1759 Level: debug :: curl libs are initialized
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 304 Level: debug :: using libcurl
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0xAAB98B80 File: hs_transport.c Line: 831 Level: trace :: setting http version
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0xAAB98B80 File: hs_transport.c Line: 849 Level: trace :: setting http version done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 562 Level: trace :: accepting all http versions
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 865 Level: trace :: setting connection timeout
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 883 Level: trace :: setting connection timeout done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 565 Level: trace :: connect timeout = 90000
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 935 Level: trace :: setting send timeout
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 953 Level: trace :: setting send timeout done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 567 Level: trace :: send timeout = 90000
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 900 Level: trace :: setting receive timeout
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0xAAB98B80 File: hs_transport.c Line: 918 Level: trace :: setting receive timeout done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 569 Level: trace :: receive timeout = 90000
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1712 Level: trace :: resetting proxy
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1730 Level: trace :: resetting proxy done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: hs_transport_init Thread Id: 0xAAB98B80 File: hs_transport.c Line: 587 Level: trace :: initialization done
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (allow-updates)=(1)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (block)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (block)=(0)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (ticket)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (ticket)=(2D17DA0D556F9CA450CEFF37)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (host)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (certhash)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (certhash)=(1D867F86AC4CDFB38F6C9D75FED5BCD9:)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (stub)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (stub)=(0)
+[Wed Mar 27 15:48:27.994 2019][libcsd]Function: csd_setarg Thread Id: 0xAAB98B80 File: csd_api.c Line: 695 Level: debug :: received arg: (group)
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: csd_prelogin Thread Id: 0xAAB98B80 File: csd_api.c Line: 882 Level: debug :: libcsd prelogin started. 
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: transport_init_hash Thread Id: 0xAAB98B80 File: csd_api.c Line: 810 Level: debug :: Using legacy certhash
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_setcert Thread Id: 0xAAB98B80 File: hs_transport.c Line: 785 Level: trace :: init cert verify hash ... done
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: asa_tok_ren_init Thread Id: 0xAAB98B80 File: asa.c Line: 182 Level: debug :: cond init succeeded
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = 
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1142 Level: trace :: host changed
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1035 Level: trace :: detecting proxy...
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1042 Level: trace :: verifying proxy...
+[Wed Mar 27 15:48:27.995 2019][libcsd]Function: hs_transport_probe Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1345 Level: trace :: sending probe request
+[Wed Mar 27 15:48:28.396 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:48:28.396 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:48:28.396 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:48:28.396 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:48:28.396 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.0
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 94
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:48:28 GMT
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_probe Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1367 Level: trace :: sending probe request done
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1045 Level: trace :: verifying proxy... done.
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1063 Level: trace :: detecting proxy... done.
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: asa_get_token Thread Id: 0xAAB98B80 File: asa.c Line: 388 Level: debug :: getting token data from url (/+CSCOE+/sdesktop/token.xml?ticket=2D17DA0D556F9CA450CEFF37&stub=0)
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:48:28.397 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/xml
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:48:28 GMT
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:48:28.643 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: asa_get_token Thread Id: 0xAAB98B80 File: asa.c Line: 438 Level: debug :: got token (7328D4367566F1D15C18E8F8)
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: csd_prelogin Thread Id: 0xAAB98B80 File: csd_api.c Line: 925 Level: debug :: Calling asa begin token
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: update_file Thread Id: 0xAAB98B80 File: update.c Line: 230 Level: debug :: updating file (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: verify_file Thread Id: 0xAAB98B80 File: update.c Line: 125 Level: debug :: verifying file: /root/.cisco/hostscan/bin/cscan
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_get_from_cache Thread Id: 0xAAB98B80 File: hs_cache.c Line: 95 Level: debug :: No cache for '0'
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0xAAB98B80 File: hs_download.c Line: 609 Level: debug :: attempting to download file: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:48:28.644 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:48:28.891 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 489
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: max-age=0
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_transport_get_data Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0xAAB98B80 File: hs_download.c Line: 647 Level: debug :: downloaded file: /CACHE/sdesktop/hostscan/linux_x64/manifest (489 bytes)
+[Wed Mar 27 15:48:28.892 2019][libcsd]Function: hs_add_to_cache Thread Id: 0xAAB98B80 File: hs_cache.c Line: 76 Level: debug :: Setting cache for '0'
+[Wed Mar 27 15:48:28.893 2019][libcsd]Function: download_manifest Thread Id: 0xAAB98B80 File: update.c Line: 82 Level: debug :: manifest data downloaded: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:48:28.933 2019][libcsd]Function: verify_file Thread Id: 0xAAB98B80 File: update.c Line: 175 Level: debug :: file has been verified: (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:48:28.933 2019][libcsd]Function: arg_set Thread Id: 0xAAB98B80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: l10n_update_file Thread Id: 0xAAB98B80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en-us)
+[Wed Mar 27 15:48:28.939 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:48:29.195 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:48:29 GMT
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:48:29.196 2019][libcsd]Function: l10n_update_file Thread Id: 0xAAB98B80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en-us from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:48:29.197 2019][libcsd]Function: l10n_update_file Thread Id: 0xAAB98B80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en)
+[Wed Mar 27 15:48:29.197 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:48:29.443 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:48:29 GMT
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: dump_http_headers Thread Id: 0xAAB98B80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: parse_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: process_response_headers Thread Id: 0xAAB98B80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: hs_transport_get Thread Id: 0xAAB98B80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: l10n_update_file Thread Id: 0xAAB98B80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: asa_is_token_renewal_running Thread Id: 0xAAB98B80 File: asa.c Line: 986 Level: debug :: Token renewal running
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xAAB98B80 File: asa.c Line: 1038 Level: debug :: Delivering signal
+[Wed Mar 27 15:48:29.444 2019][libcsd]Function: hs_thread_cond_wait_and_call Thread Id: 0xA8BBF700 File: hs_thread.c Line: 588 Level: debug :: Received signal to exit thread
+[Wed Mar 27 15:48:29.445 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xAAB98B80 File: asa.c Line: 1048 Level: debug :: Waiting for thread to complete
+[Wed Mar 27 15:48:29.445 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0xAAB98B80 File: asa.c Line: 1050 Level: debug :: Thread completed
+[Wed Mar 27 15:48:29.445 2019][libcsd]Function: libcsd_ipc_init_server Thread Id: 0xAAB98B80 File: libcsd_ipc.c Line: 186 Level: debug :: libcsd server is listening on (/root/.cisco/hostscan/.libcsd.ipc)
+[Wed Mar 27 15:48:29.445 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0xAAB98B80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/bin/cscan], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:48:29.500 2019][libcsd]Function: hs_launch_process_return_pid Thread Id: 0xAAB98B80 File: hs_process.c Line: 908 Level: debug :: launching executable (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:48:29.517 2019][libcsd]Function: new_connection_cb Thread Id: 0xAAB98B80 File: csd_api.c Line: 68 Level: all :: *** new connection [558667c172e0] from pid: [24044] ***
+[Wed Mar 27 15:48:29.519 2019][libcsd]Function: csd_prelogin Thread Id: 0xAAB98B80 File: csd_api.c Line: 1015 Level: debug :: arguments sent to scanner, starting prelogin.
+[Wed Mar 27 15:48:29.519 2019][libcsd]Function: csd_prelogin Thread Id: 0xAAB98B80 File: csd_api.c Line: 1025 Level: debug :: prelogin started.
+[Wed Mar 27 15:48:31.251 2019][libcsd]Function: csd_prelogin Thread Id: 0xAAB98B80 File: csd_api.c Line: 1031 Level: all :: libcsd prelogin returns 0. 
+[Wed Mar 27 15:48:31.252 2019][libcsd]Function: csd_detach Thread Id: 0xAAB98B80 File: csd_api.c Line: 1058 Level: debug :: csd_detach().
+[Wed Mar 27 15:48:31.257 2019][libcsd]Function: csd_run Thread Id: 0xAAB98B80 File: csd_api.c Line: 1089 Level: debug :: csd_run().
+[Wed Mar 27 15:48:31.257 2019][libcsd]Function: csd_run Thread Id: 0xAAB98B80 File: csd_api.c Line: 1101 Level: debug :: spawning thread to handle scan session.
+[Wed Mar 27 15:50:00.467 2019][libcsd]Function: csd_init Thread Id: 0x4442DB80 File: csd_api.c Line: 576 Level: all :: hello
+[Wed Mar 27 15:50:00.468 2019][libcsd]Function: csd_init Thread Id: 0x4442DB80 File: csd_api.c Line: 577 Level: all :: libcsd.so version 4.3.05033
+[Wed Mar 27 15:50:00.468 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 261 Level: trace :: initialization
+[Wed Mar 27 15:50:00.475 2019][libcsd]Function: hs_is_name_of_this_process Thread Id: 0x4442DB80 File: hs_process.c Line: 338 Level: debug :: Match Failed : Process names are 'cscan' and 'cstub'
+[Wed Mar 27 15:50:00.483 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0x4442DB80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/lib/libaccurl.so.4.3.0], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:50:00.534 2019][libcsd]Function: hs_dl_load_global Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 163 Level: debug :: attempting to load library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0)
+[Wed Mar 27 15:50:00.534 2019][libcsd]Function: hs_dl_load_global Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 173 Level: debug :: library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) loaded
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_transport_load_curl_frm_home Thread Id: 0x4442DB80 File: hs_transport_curl.c Line: 952 Level: debug :: curl library file (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) is loaded
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_transport_curl_load_ssl Thread Id: 0x4442DB80 File: hs_transport_curl.c Line: 990 Level: debug :: loaded self as ssl library
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x4442DB80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:50:00.535 2019][libcsd]Function: hs_transport_curl_load_crypto Thread Id: 0x4442DB80 File: hs_transport_curl.c Line: 1008 Level: debug :: loaded self as crypto library
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_curl_set_options Thread Id: 0x4442DB80 File: hs_transport_curl.c Line: 1559 Level: debug :: Setting TLS version option
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_curl_init_based_on_process Thread Id: 0x4442DB80 File: hs_transport_curl.c Line: 1759 Level: debug :: curl libs are initialized
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 304 Level: debug :: using libcurl
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0x4442DB80 File: hs_transport.c Line: 831 Level: trace :: setting http version
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0x4442DB80 File: hs_transport.c Line: 849 Level: trace :: setting http version done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 562 Level: trace :: accepting all http versions
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 865 Level: trace :: setting connection timeout
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 883 Level: trace :: setting connection timeout done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 565 Level: trace :: connect timeout = 90000
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 935 Level: trace :: setting send timeout
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 953 Level: trace :: setting send timeout done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 567 Level: trace :: send timeout = 90000
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 900 Level: trace :: setting receive timeout
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0x4442DB80 File: hs_transport.c Line: 918 Level: trace :: setting receive timeout done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 569 Level: trace :: receive timeout = 90000
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1712 Level: trace :: resetting proxy
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1730 Level: trace :: resetting proxy done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: hs_transport_init Thread Id: 0x4442DB80 File: hs_transport.c Line: 587 Level: trace :: initialization done
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (allow-updates)=(1)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (block)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (block)=(0)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (ticket)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (ticket)=(3398CC6C3D73711F4541BCBE)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (host)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (certhash)
+[Wed Mar 27 15:50:00.536 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (certhash)=(1D867F86AC4CDFB38F6C9D75FED5BCD9:)
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (stub)
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (stub)=(0)
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: csd_setarg Thread Id: 0x4442DB80 File: csd_api.c Line: 695 Level: debug :: received arg: (group)
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: csd_prelogin Thread Id: 0x4442DB80 File: csd_api.c Line: 882 Level: debug :: libcsd prelogin started. 
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: transport_init_hash Thread Id: 0x4442DB80 File: csd_api.c Line: 810 Level: debug :: Using legacy certhash
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_setcert Thread Id: 0x4442DB80 File: hs_transport.c Line: 785 Level: trace :: init cert verify hash ... done
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: asa_tok_ren_init Thread Id: 0x4442DB80 File: asa.c Line: 182 Level: debug :: cond init succeeded
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = 
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1142 Level: trace :: host changed
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1035 Level: trace :: detecting proxy...
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1042 Level: trace :: verifying proxy...
+[Wed Mar 27 15:50:00.537 2019][libcsd]Function: hs_transport_probe Thread Id: 0x4442DB80 File: hs_transport.c Line: 1345 Level: trace :: sending probe request
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.0
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 94
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:00.935 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:00 GMT
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_probe Thread Id: 0x4442DB80 File: hs_transport.c Line: 1367 Level: trace :: sending probe request done
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1045 Level: trace :: verifying proxy... done.
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x4442DB80 File: hs_transport.c Line: 1063 Level: trace :: detecting proxy... done.
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: asa_get_token Thread Id: 0x4442DB80 File: asa.c Line: 388 Level: debug :: getting token data from url (/+CSCOE+/sdesktop/token.xml?ticket=3398CC6C3D73711F4541BCBE&stub=0)
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:00.936 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/xml
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:01 GMT
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:01.181 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: asa_get_token Thread Id: 0x4442DB80 File: asa.c Line: 438 Level: debug :: got token (30F787796BED2C4042E8DBC3)
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: csd_prelogin Thread Id: 0x4442DB80 File: csd_api.c Line: 925 Level: debug :: Calling asa begin token
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: update_file Thread Id: 0x4442DB80 File: update.c Line: 230 Level: debug :: updating file (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: verify_file Thread Id: 0x4442DB80 File: update.c Line: 125 Level: debug :: verifying file: /root/.cisco/hostscan/bin/cscan
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_get_from_cache Thread Id: 0x4442DB80 File: hs_cache.c Line: 95 Level: debug :: No cache for '0'
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0x4442DB80 File: hs_download.c Line: 609 Level: debug :: attempting to download file: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:01.182 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 489
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: max-age=0
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:01.442 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x4442DB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:01.443 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0x4442DB80 File: hs_download.c Line: 647 Level: debug :: downloaded file: /CACHE/sdesktop/hostscan/linux_x64/manifest (489 bytes)
+[Wed Mar 27 15:50:01.443 2019][libcsd]Function: hs_add_to_cache Thread Id: 0x4442DB80 File: hs_cache.c Line: 76 Level: debug :: Setting cache for '0'
+[Wed Mar 27 15:50:01.443 2019][libcsd]Function: download_manifest Thread Id: 0x4442DB80 File: update.c Line: 82 Level: debug :: manifest data downloaded: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:50:01.490 2019][libcsd]Function: verify_file Thread Id: 0x4442DB80 File: update.c Line: 175 Level: debug :: file has been verified: (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:01.490 2019][libcsd]Function: arg_set Thread Id: 0x4442DB80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x4442DB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x4442DB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: l10n_update_file Thread Id: 0x4442DB80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en-us)
+[Wed Mar 27 15:50:01.497 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:01.755 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:01.755 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:01.755 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:01.755 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:01 GMT
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:01.756 2019][libcsd]Function: l10n_update_file Thread Id: 0x4442DB80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en-us from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:50:01.757 2019][libcsd]Function: l10n_update_file Thread Id: 0x4442DB80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en)
+[Wed Mar 27 15:50:01.757 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:02.000 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:02.000 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:02.000 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:01 GMT
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: dump_http_headers Thread Id: 0x4442DB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: parse_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: process_response_headers Thread Id: 0x4442DB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: hs_transport_get Thread Id: 0x4442DB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:02.001 2019][libcsd]Function: l10n_update_file Thread Id: 0x4442DB80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: asa_is_token_renewal_running Thread Id: 0x4442DB80 File: asa.c Line: 986 Level: debug :: Token renewal running
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x4442DB80 File: asa.c Line: 1038 Level: debug :: Delivering signal
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: hs_thread_cond_wait_and_call Thread Id: 0x42454700 File: hs_thread.c Line: 588 Level: debug :: Received signal to exit thread
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x4442DB80 File: asa.c Line: 1048 Level: debug :: Waiting for thread to complete
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x4442DB80 File: asa.c Line: 1050 Level: debug :: Thread completed
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: libcsd_ipc_init_server Thread Id: 0x4442DB80 File: libcsd_ipc.c Line: 186 Level: debug :: libcsd server is listening on (/root/.cisco/hostscan/.libcsd.ipc)
+[Wed Mar 27 15:50:02.002 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0x4442DB80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/bin/cscan], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:50:02.050 2019][libcsd]Function: hs_launch_process_return_pid Thread Id: 0x4442DB80 File: hs_process.c Line: 908 Level: debug :: launching executable (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:02.067 2019][libcsd]Function: new_connection_cb Thread Id: 0x4442DB80 File: csd_api.c Line: 68 Level: all :: *** new connection [555ba9460ff0] from pid: [24540] ***
+[Wed Mar 27 15:50:02.068 2019][libcsd]Function: csd_prelogin Thread Id: 0x4442DB80 File: csd_api.c Line: 1015 Level: debug :: arguments sent to scanner, starting prelogin.
+[Wed Mar 27 15:50:02.068 2019][libcsd]Function: csd_prelogin Thread Id: 0x4442DB80 File: csd_api.c Line: 1025 Level: debug :: prelogin started.
+[Wed Mar 27 15:50:03.741 2019][libcsd]Function: csd_prelogin Thread Id: 0x4442DB80 File: csd_api.c Line: 1031 Level: all :: libcsd prelogin returns 0. 
+[Wed Mar 27 15:50:03.742 2019][libcsd]Function: csd_detach Thread Id: 0x4442DB80 File: csd_api.c Line: 1058 Level: debug :: csd_detach().
+[Wed Mar 27 15:50:03.748 2019][libcsd]Function: csd_run Thread Id: 0x4442DB80 File: csd_api.c Line: 1089 Level: debug :: csd_run().
+[Wed Mar 27 15:50:03.748 2019][libcsd]Function: csd_run Thread Id: 0x4442DB80 File: csd_api.c Line: 1101 Level: debug :: spawning thread to handle scan session.
+[Wed Mar 27 15:50:37.826 2019][libcsd]Function: csd_init Thread Id: 0x27C3CB80 File: csd_api.c Line: 576 Level: all :: hello
+[Wed Mar 27 15:50:37.827 2019][libcsd]Function: csd_init Thread Id: 0x27C3CB80 File: csd_api.c Line: 577 Level: all :: libcsd.so version 4.3.05033
+[Wed Mar 27 15:50:37.827 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 261 Level: trace :: initialization
+[Wed Mar 27 15:50:37.833 2019][libcsd]Function: hs_is_name_of_this_process Thread Id: 0x27C3CB80 File: hs_process.c Line: 338 Level: debug :: Match Failed : Process names are 'cscan' and 'cstub'
+[Wed Mar 27 15:50:37.839 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0x27C3CB80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/lib/libaccurl.so.4.3.0], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:50:37.881 2019][libcsd]Function: hs_dl_load_global Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 163 Level: debug :: attempting to load library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0)
+[Wed Mar 27 15:50:37.881 2019][libcsd]Function: hs_dl_load_global Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 173 Level: debug :: library (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) loaded
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_load_curl_frm_home Thread Id: 0x27C3CB80 File: hs_transport_curl.c Line: 952 Level: debug :: curl library file (/root/.cisco/hostscan/lib/libaccurl.so.4.3.0) is loaded
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_curl_load_ssl Thread Id: 0x27C3CB80 File: hs_transport_curl.c Line: 990 Level: debug :: loaded self as ssl library
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 117 Level: debug :: attempting to load self
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_dl_load_self Thread Id: 0x27C3CB80 File: hs_dlhandler.c Line: 127 Level: debug :: loaded self as a shared library
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_curl_load_crypto Thread Id: 0x27C3CB80 File: hs_transport_curl.c Line: 1008 Level: debug :: loaded self as crypto library
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_curl_set_options Thread Id: 0x27C3CB80 File: hs_transport_curl.c Line: 1559 Level: debug :: Setting TLS version option
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_curl_init_based_on_process Thread Id: 0x27C3CB80 File: hs_transport_curl.c Line: 1759 Level: debug :: curl libs are initialized
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 304 Level: debug :: using libcurl
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0x27C3CB80 File: hs_transport.c Line: 831 Level: trace :: setting http version
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_sethttpver Thread Id: 0x27C3CB80 File: hs_transport.c Line: 849 Level: trace :: setting http version done
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 562 Level: trace :: accepting all http versions
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 865 Level: trace :: setting connection timeout
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setconntimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 883 Level: trace :: setting connection timeout done
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 565 Level: trace :: connect timeout = 90000
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 935 Level: trace :: setting send timeout
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setsendtimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 953 Level: trace :: setting send timeout done
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 567 Level: trace :: send timeout = 90000
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 900 Level: trace :: setting receive timeout
+[Wed Mar 27 15:50:37.882 2019][libcsd]Function: hs_transport_setrecvtimeout Thread Id: 0x27C3CB80 File: hs_transport.c Line: 918 Level: trace :: setting receive timeout done
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 569 Level: trace :: receive timeout = 90000
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1712 Level: trace :: resetting proxy
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_resetproxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1730 Level: trace :: resetting proxy done
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_init Thread Id: 0x27C3CB80 File: hs_transport.c Line: 587 Level: trace :: initialization done
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (allow-updates)=(1)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (block)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (block)=(0)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (ticket)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (ticket)=(64B4D16E508C40E909C42570)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (host)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (certhash)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (certhash)=(1D867F86AC4CDFB38F6C9D75FED5BCD9:)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (stub)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (stub)=(0)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_setarg Thread Id: 0x27C3CB80 File: csd_api.c Line: 695 Level: debug :: received arg: (group)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: csd_prelogin Thread Id: 0x27C3CB80 File: csd_api.c Line: 882 Level: debug :: libcsd prelogin started. 
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: transport_init_hash Thread Id: 0x27C3CB80 File: csd_api.c Line: 810 Level: debug :: Using legacy certhash
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_setcert Thread Id: 0x27C3CB80 File: hs_transport.c Line: 785 Level: trace :: init cert verify hash ... done
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: asa_tok_ren_init Thread Id: 0x27C3CB80 File: asa.c Line: 182 Level: debug :: cond init succeeded
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = 
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1142 Level: trace :: host changed
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1035 Level: trace :: detecting proxy...
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1042 Level: trace :: verifying proxy...
+[Wed Mar 27 15:50:37.883 2019][libcsd]Function: hs_transport_probe Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1345 Level: trace :: sending probe request
+[Wed Mar 27 15:50:38.291 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.0
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 94
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:38 GMT
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_probe Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1367 Level: trace :: sending probe request done
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1045 Level: trace :: verifying proxy... done.
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_detect_proxy Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1063 Level: trace :: detecting proxy... done.
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: asa_get_token Thread Id: 0x27C3CB80 File: asa.c Line: 388 Level: debug :: getting token data from url (/+CSCOE+/sdesktop/token.xml?ticket=64B4D16E508C40E909C42570&stub=0)
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:38.292 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/xml
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Close
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:38 GMT
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:38.540 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: asa_get_token Thread Id: 0x27C3CB80 File: asa.c Line: 438 Level: debug :: got token (13283BB3087F8522378F62ED)
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: csd_prelogin Thread Id: 0x27C3CB80 File: csd_api.c Line: 925 Level: debug :: Calling asa begin token
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: update_file Thread Id: 0x27C3CB80 File: update.c Line: 230 Level: debug :: updating file (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: verify_file Thread Id: 0x27C3CB80 File: update.c Line: 125 Level: debug :: verifying file: /root/.cisco/hostscan/bin/cscan
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_get_from_cache Thread Id: 0x27C3CB80 File: hs_cache.c Line: 95 Level: debug :: No cache for '0'
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0x27C3CB80 File: hs_download.c Line: 609 Level: debug :: attempting to download file: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:38.541 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 200
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Length: 489
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: max-age=0
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:38.789 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1584 Level: trace :: getting data
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1600 Level: trace :: --- http data ---
+todo 
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_transport_get_data Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1604 Level: trace :: getting data done
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_download_file_to_buffer_s Thread Id: 0x27C3CB80 File: hs_download.c Line: 647 Level: debug :: downloaded file: /CACHE/sdesktop/hostscan/linux_x64/manifest (489 bytes)
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: hs_add_to_cache Thread Id: 0x27C3CB80 File: hs_cache.c Line: 76 Level: debug :: Setting cache for '0'
+[Wed Mar 27 15:50:38.790 2019][libcsd]Function: download_manifest Thread Id: 0x27C3CB80 File: update.c Line: 82 Level: debug :: manifest data downloaded: /CACHE/sdesktop/hostscan/linux_x64/manifest
+[Wed Mar 27 15:50:38.838 2019][libcsd]Function: verify_file Thread Id: 0x27C3CB80 File: update.c Line: 175 Level: debug :: file has been verified: (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:38.838 2019][libcsd]Function: arg_set Thread Id: 0x27C3CB80 File: args.c Line: 90 Level: debug :: set argument (host)=(https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1086 Level: trace :: setting peer
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1118 Level: trace :: setting l2 peer: (https://vpn.corpcommon.com)
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setpeer Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1130 Level: trace :: setting peer done. peer = https://vpn.corpcommon.com, referrer = https://vpn.corpcommon.com
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1745 Level: trace :: setting redirects
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1753 Level: trace :: setting redirects: (10)
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_setredircount Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1760 Level: trace :: setting redirects done
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: l10n_update_file Thread Id: 0x27C3CB80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en-us)
+[Wed Mar 27 15:50:38.845 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:39 GMT
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:39.099 2019][libcsd]Function: l10n_update_file Thread Id: 0x27C3CB80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en-us from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:50:39.100 2019][libcsd]Function: l10n_update_file Thread Id: 0x27C3CB80 File: l10n.c Line: 130 Level: debug :: retrieving localization file: (https://vpn.corpcommon.com/+CSCOT+/translation-table?type=mo&textdomain=csd&lang=en)
+[Wed Mar 27 15:50:39.100 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1385 Level: trace :: sending get request
+[Wed Mar 27 15:50:39.358 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 184 Level: trace :: processing http response headers
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 192 Level: trace :: getting http headers from l2
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 231 Level: trace :: getting http headers headers from l2 done
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 123 Level: trace :: parsing http headers
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 143 Level: trace :: Calling populate_http_headers_list
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 157 Level: trace :: Calling dump_http_headers
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 430 Level: debug :: --- Http Response Headers ---
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: HTTP-Version: 1.1
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Status-Code: 404
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Content-Type: text/html; charset=utf-8
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Transfer-Encoding: chunked
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Cache-Control: no-cache
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Pragma: no-cache
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Connection: Keep-Alive
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: Date: Wed, 27 Mar 2019 15:50:39 GMT
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 437 Level: debug :: X-Frame-Options: SAMEORIGIN
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: dump_http_headers Thread Id: 0x27C3CB80 File: hs_httpheader.c Line: 442 Level: debug :: --------------------
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: parse_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 173 Level: trace :: parsing http headers done
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: process_response_headers Thread Id: 0x27C3CB80 File: hs_transport.c Line: 249 Level: trace :: processing http response headers done
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: hs_transport_get Thread Id: 0x27C3CB80 File: hs_transport.c Line: 1455 Level: trace :: sending get request done
+[Wed Mar 27 15:50:39.359 2019][libcsd]Function: l10n_update_file Thread Id: 0x27C3CB80 File: l10n.c Line: 136 Level: warn :: failed to get localization file for en from peer (https://vpn.corpcommon.com).
+[Wed Mar 27 15:50:39.360 2019][libcsd]Function: asa_is_token_renewal_running Thread Id: 0x27C3CB80 File: asa.c Line: 986 Level: debug :: Token renewal running
+[Wed Mar 27 15:50:39.360 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x27C3CB80 File: asa.c Line: 1038 Level: debug :: Delivering signal
+[Wed Mar 27 15:50:39.360 2019][libcsd]Function: hs_thread_cond_wait_and_call Thread Id: 0x25C63700 File: hs_thread.c Line: 588 Level: debug :: Received signal to exit thread
+[Wed Mar 27 15:50:39.360 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x27C3CB80 File: asa.c Line: 1048 Level: debug :: Waiting for thread to complete
+[Wed Mar 27 15:50:39.360 2019][libcsd]Function: asa_end_token_renewal Thread Id: 0x27C3CB80 File: asa.c Line: 1050 Level: debug :: Thread completed
+[Wed Mar 27 15:50:39.361 2019][libcsd]Function: libcsd_ipc_init_server Thread Id: 0x27C3CB80 File: libcsd_ipc.c Line: 186 Level: debug :: libcsd server is listening on (/root/.cisco/hostscan/.libcsd.ipc)
+[Wed Mar 27 15:50:39.361 2019][libcsd]Function: hs_file_verify_with_killdate Thread Id: 0x27C3CB80 File: hs_file_verify_linux.c Line: 337 Level: debug :: verifying file signature: file = [/root/.cisco/hostscan/bin/cscan], signer = [Cisco Systems, Inc.], type = [2]
+[Wed Mar 27 15:50:39.415 2019][libcsd]Function: hs_launch_process_return_pid Thread Id: 0x27C3CB80 File: hs_process.c Line: 908 Level: debug :: launching executable (/root/.cisco/hostscan/bin/cscan)
+[Wed Mar 27 15:50:39.436 2019][libcsd]Function: new_connection_cb Thread Id: 0x27C3CB80 File: csd_api.c Line: 68 Level: all :: *** new connection [55dece885e40] from pid: [24725] ***
+[Wed Mar 27 15:50:39.438 2019][libcsd]Function: csd_prelogin Thread Id: 0x27C3CB80 File: csd_api.c Line: 1015 Level: debug :: arguments sent to scanner, starting prelogin.
+[Wed Mar 27 15:50:39.438 2019][libcsd]Function: csd_prelogin Thread Id: 0x27C3CB80 File: csd_api.c Line: 1025 Level: debug :: prelogin started.
+[Wed Mar 27 15:50:41.097 2019][libcsd]Function: csd_prelogin Thread Id: 0x27C3CB80 File: csd_api.c Line: 1031 Level: all :: libcsd prelogin returns 0. 
+[Wed Mar 27 15:50:41.098 2019][libcsd]Function: csd_detach Thread Id: 0x27C3CB80 File: csd_api.c Line: 1058 Level: debug :: csd_detach().
+[Wed Mar 27 15:50:41.103 2019][libcsd]Function: csd_run Thread Id: 0x27C3CB80 File: csd_api.c Line: 1089 Level: debug :: csd_run().
+[Wed Mar 27 15:50:41.103 2019][libcsd]Function: csd_run Thread Id: 0x27C3CB80 File: csd_api.c Line: 1101 Level: debug :: spawning thread to handle scan session.
