@@ -1,8 +1,7 @@
 #!/bin/bash
 # Cisco Anyconnect CSD wrapper for OpenConnect
-
 # Enter your vpn host here
-CSD_HOSTNAME=vpn.corpcommon.com
+# CSD_HOSTNAME=$1
 if [[ -z ${CSD_HOSTNAME} ]]
 then
     echo "Define CSD_HOSTNAME with vpn-host in script text. Exiting."
@@ -55,7 +54,7 @@ for dir in $HOSTSCAN_DIR $LIB_DIR $BIN_DIR ; do
 done
 
 # getting manifest, and checking binaries
-wget --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/manifest" -O "$HOSTSCAN_DIR/manifest"
+wget -q --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/manifest" -O "$HOSTSCAN_DIR/manifest"
 
 # generating md5.sum with full paths from manifest
 export HOSTSCAN_DIR=$HOSTSCAN_DIR
@@ -67,7 +66,7 @@ MANIFEST_LINES=`wc --lines $HOSTSCAN_DIR/manifest | awk '{ print $1; }'`
 echo "Got $MANIFEST_LINES files in manifes, locally found $MD5_LINES"
 
 # check md5
-md5sum -c $HOSTSCAN_DIR/md5.sum
+md5sum -c $HOSTSCAN_DIR/md5.sum > /dev/null
 if [[ "$?" -ne "0" || "$MD5_LINES" -ne "$MANIFEST_LINES" ]]
 then
     echo "Corrupted files, or whatever wrong with md5 sums, or missing some file"
@@ -79,7 +78,7 @@ then
         FILE="$(basename "$i")"
            
         echo "Downloading: $FILE to $TMP_DIR"
-        wget --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/$FILE" -O $FILE
+        wget -q --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/$FILE" -O $FILE
 
         # some files are in gz (don't understand logic here)
         if [[ ! -f $FILE || ! -s $FILE ]]
@@ -91,7 +90,7 @@ then
             
             echo "Failure on $FILE, trying gz"
             FILE_GZ=$FILE.gz
-            wget --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/$FILE_GZ" -O $FILE_GZ
+            wget -q --no-check-certificate -c "https://${CSD_HOSTNAME}/CACHE/sdesktop/hostscan/$ARCH/$FILE_GZ" -O $FILE_GZ
             gunzip --verbose --decompress $FILE_GZ
         fi
 	
